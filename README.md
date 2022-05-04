@@ -4,7 +4,7 @@
 OrderChamp - Small e-commerce application.
 
 # Installation
-- `git clone https://github.com/Orderchamp/assignment.git`
+- `git clone https://github.com/theoddimi/orderchamp.git`
 - `composer install`
 - `php artisan migrate --seed`
 - `php artisan serve`
