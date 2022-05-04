@@ -13,7 +13,6 @@ class CartController extends Controller {
      */
     public function showAction(Request $request): \Illuminate\Contracts\View\View|\Illuminate\Contracts\View\Factory
     {
-
         if (auth()->check()) {
             $user = auth()->user();
             $cart = $user->cart;

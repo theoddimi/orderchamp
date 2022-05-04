@@ -16,7 +16,7 @@ class CheckoutController extends Controller {
     use CheckoutTrait;
     
     const DEFAULT_DISCOUNT_ID = 1;
-    const DISCOUNT_CREATE_DELAY_IN_MINUTES = 0;
+    const DISCOUNT_CREATE_DELAY_IN_MINUTES = 15;
 
     /**
      * 
