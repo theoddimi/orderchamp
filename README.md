@@ -7,6 +7,7 @@ OrderChamp - Small e-commerce application.
 - `git clone https://github.com/theoddimi/orderchamp.git`
 - `composer install`
 - `php artisan migrate --seed`
+- `php artisan storage:link`
 - `php artisan serve`
 
 Open a new command line window on the working directory and run:
